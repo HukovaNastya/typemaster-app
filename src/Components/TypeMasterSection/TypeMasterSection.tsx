@@ -4,6 +4,7 @@ import Grid from '@mui/material/Grid';
 import { ThemeProvider } from '@mui/material/styles';
 import Theme from '../../Theme/Theme';
 import TypeMasterInfo from '../TypeMasterInfo/TypeMasterInfo';
+import { TypeMasterImg} from './TypeMasterSection.styles';
 
 const TypeMasterSection:React.FC = () => {
   return (
@@ -14,7 +15,9 @@ const TypeMasterSection:React.FC = () => {
               <TypeMasterInfo/>
             </Grid>  
             <Grid item>
-              
+              <TypeMasterImg>
+                <img src="/img/typeMasterImg.png" alt="typeMasterImg"/>
+              </ TypeMasterImg>
             </Grid>  
           </Grid>
         </Container>
