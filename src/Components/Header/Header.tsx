@@ -4,6 +4,7 @@ import Grid from '@mui/material/Grid';
 import { ThemeProvider } from '@mui/material/styles';
 import Theme from '../../Theme/Theme';
 import {HomeAppBar} from './Header.styles';
+import HeaderButton from '../../Components/HeaderButton/HeaderButton';
 
 const Header:React.FC = () => {
   return (
@@ -15,7 +16,7 @@ const Header:React.FC = () => {
               <img src="/img/logo.svg" alt="logo" />
             </Grid>  
             <Grid item>
-              <h1>Hello Word!!</h1>
+              <HeaderButton/>
             </Grid>  
           </Grid>
         </Container>

@@ -1,16 +1,5 @@
 import { createTheme } from '@mui/material/styles';
 
-// declare module '@mui/material/styles' {
-//   interface ThemeOptions {
-//     common: {
-//       lightOrange: React.CSSProperties['color'];
-//       orange: React.CSSProperties['color'];
-//     };
-//   }
-// }
-
-
-
 const Theme = createTheme({
   breakpoints: {
     values: {
@@ -62,7 +51,7 @@ const Theme = createTheme({
       color: '#162542',
     },
     button: {
-      fontWeight: 700,
+      fontWeight: 500,
       fontSize: "1rem",
     },
   },      
