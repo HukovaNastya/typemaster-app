@@ -37,6 +37,12 @@ const Theme = createTheme({
       lineHeight: 1.5,
       width: '380px',
     },
+    body2: {
+      fontSize: '1rem',
+      fontWeight: 400,
+      lineHeight: 1.5,
+      width: '255px',
+    },
     h1: {
       fontWeight: 900,
       fontSize: "3.5rem",
@@ -46,7 +52,8 @@ const Theme = createTheme({
     h2: {
       fontWeight: 900,
       fontSize: "2rem",
-      color: '#162542',
+      color: '#ss',
+      width: '255px'
     },
     h3: {
       fontWeight: 900,

@@ -17,7 +17,7 @@ const TypeMasterSection:React.FC = () => {
             <Grid item>
               <TypeMasterImg>
                 <img src="/img/typeMasterImg.png" alt="typeMasterImg"/>
-              </ TypeMasterImg>
+              </TypeMasterImg>
             </Grid>  
           </Grid>
         </Container>
