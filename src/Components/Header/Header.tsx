@@ -11,7 +11,7 @@ const Header:React.FC = () => {
     <ThemeProvider theme={Theme}>
       <HomeAppBar position="relative" >
         <Container maxWidth="lg">
-          <Grid container  justifyContent="space-between" alignItems="center">
+          <Grid container justifyContent="space-between" alignItems="center">
             <Grid item>
               <img src="/img/logo.svg" alt="logo" />
             </Grid>  
