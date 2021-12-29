@@ -4,7 +4,7 @@ import {TypeMasterInfoTitleWrapper, TypeMasterInfoTitleStyles} from './TypeMaste
 const TypeMasterInfoTitle:React.FC = () => {
   return (
     <TypeMasterInfoTitleWrapper>
-      <TypeMasterInfoTitleStyles>
+      <TypeMasterInfoTitleStyles variant='h1'>
         Typemaster Keyboard 
       </TypeMasterInfoTitleStyles>
     </TypeMasterInfoTitleWrapper>

@@ -38,8 +38,8 @@ const Theme = createTheme({
     },
     h1: {
       fontWeight: 900,
-      fontSize: "1rem",
-      color: '#7B8BAD',
+      fontSize: "3.5rem",
+      color: '#162542',
       width: '445px',
     },
     h2: {

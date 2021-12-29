@@ -1,12 +1,13 @@
 import React from 'react';
-import Box from '@mui/material/Box';
+import {TypeMasterInfoWrapper} from './TypeMasterInfo.styles';
+
 import TypeMasterInfoTitle from '../TypeMasterInfoTitle/TypeMasterInfoTitle';
 
 const TypeMasterInfo:React.FC = () => {
   return (
-    <Box>
+    <TypeMasterInfoWrapper>
       <TypeMasterInfoTitle/>
-    </Box>
+    </TypeMasterInfoWrapper>
   )
 }
 

@@ -9,9 +9,9 @@ import HeaderButton from '../../Components/HeaderButton/HeaderButton';
 const Header:React.FC = () => {
   return (
     <ThemeProvider theme={Theme}>
-      <HomeAppBar>
+      <HomeAppBar position="relative" >
         <Container maxWidth="lg">
-          <Grid container spacing={2} justifyContent="space-between" alignItems="center">
+          <Grid container  justifyContent="space-between" alignItems="center">
             <Grid item>
               <img src="/img/logo.svg" alt="logo" />
             </Grid>  

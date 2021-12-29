@@ -15,3 +15,8 @@ export const TypeMasterInfoTitleStyles  = styled(Typography)(
     maxWidth:  ${theme.typography.h1.width};
   `,
   );
+  
+  // @media (max-width: ${theme.breakpoints.values.sm}) {
+  //   font-weight: '400;
+  //   fontSize: '12px';
+  // }

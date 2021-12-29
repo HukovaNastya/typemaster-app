@@ -5,9 +5,11 @@ import Button from '@mui/material/Button';
 export const ButtonWrapper  = styled(Box)(({ theme }) => ({
   [theme.breakpoints.down('sm')]: {
     width: '150px',
+    padding: '0px'
   },
   [theme.breakpoints.up('sm')]: {
     width: '175px',
+    padding: '0px'
   },
 }));
 
