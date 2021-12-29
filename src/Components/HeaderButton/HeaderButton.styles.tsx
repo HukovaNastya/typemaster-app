@@ -22,6 +22,7 @@ export const HeaderButtonStyles  = styled(Button )(
     &:hover {
     background-color: ${ theme.palette.secondary.dark}; 
     color: ${theme.palette.primary.main};
+    }
   `,
 );
 
